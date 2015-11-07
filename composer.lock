@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1fa1e9b93bf3620401d83873eb9d7126",
-    "content-hash": "aa504692c41d94e9fb9a1cc27ef03df8",
+    "hash": "5d290b44d393fa2f83d6e31eae022724",
+    "content-hash": "9be53055f8e86cef8ed0a4123a3660e9",
     "packages": [
         {
             "name": "asm89/twig-cache-extension",
@@ -4926,12 +4926,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Smart-Core/CMSGeneratorBundle.git",
-                "reference": "aeccf5119ed46e1a9013fdf6eaa4e33a0bb59620"
+                "reference": "c85e81526267d410916d323dba5bea753229b28b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Smart-Core/CMSGeneratorBundle/zipball/aeccf5119ed46e1a9013fdf6eaa4e33a0bb59620",
-                "reference": "aeccf5119ed46e1a9013fdf6eaa4e33a0bb59620",
+                "url": "https://api.github.com/repos/Smart-Core/CMSGeneratorBundle/zipball/c85e81526267d410916d323dba5bea753229b28b",
+                "reference": "c85e81526267d410916d323dba5bea753229b28b",
                 "shasum": ""
             },
             "require": {
@@ -4948,7 +4948,7 @@
                 "MIT"
             ],
             "homepage": "http://smart-core.org",
-            "time": "2015-10-24 12:48:28"
+            "time": "2015-11-07 15:43:14"
         },
         {
             "name": "smart-core/core-bundle",
@@ -4956,12 +4956,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Smart-Core/CoreBundle.git",
-                "reference": "fcbed9681545ba8332e94ead727d80f9e95f7851"
+                "reference": "c2dd93c1ee2a922c60f6fa5a15e4e8b0076dba7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Smart-Core/CoreBundle/zipball/fcbed9681545ba8332e94ead727d80f9e95f7851",
-                "reference": "fcbed9681545ba8332e94ead727d80f9e95f7851",
+                "url": "https://api.github.com/repos/Smart-Core/CoreBundle/zipball/c2dd93c1ee2a922c60f6fa5a15e4e8b0076dba7c",
+                "reference": "c2dd93c1ee2a922c60f6fa5a15e4e8b0076dba7c",
                 "shasum": ""
             },
             "require": {
@@ -4982,7 +4982,7 @@
                 "MIT"
             ],
             "homepage": "https://github.com/Smart-Core/CoreBundle",
-            "time": "2015-11-01 00:34:35"
+            "time": "2015-11-07 17:42:57"
         },
         {
             "name": "smart-core/felib-bundle",
