@@ -4,3 +4,9 @@ Smart Core CMS Standart Edition
 
 The modern system for creating and managing web projects with open source, based on the Symfony2 Framework.
 
+Install
+-------
+
+``` bash
+composer create-project smart-core/cms -s dev ./
+```
