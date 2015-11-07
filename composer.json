@@ -1,0 +1,95 @@
+{
+    "name": "smart-core/cms",
+    "description": "Smart Core CMS Standart Edition",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "": "src/",
+            "SmartCore\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/symfony": "~2.7",
+        "smart-core/cms-bundle": "dev-master",
+
+        "doctrine/migrations": "1.0.*@dev",
+        "doctrine/doctrine-fixtures-bundle": "dev-master",
+        "doctrine/doctrine-migrations-bundle": "2.1.*@dev",
+        "dizda/cloud-backup-bundle": "dev-master",
+        "liip/functional-test-bundle": "dev-master",
+        "jms/debugging-bundle": "dev-master",
+        "mremi/templating-extra-bundle": "dev-master",
+
+
+        "friendsofsymfony/user-bundle": "dev-master",
+        "hwi/oauth-bundle": "0.4.*@dev",
+        "knplabs/knp-disqus-bundle":"dev-master",
+        "knplabs/knp-menu": "dev-master",
+        "knplabs/knp-menu-bundle": "dev-master",
+        "mopa/bootstrap-bundle":  "dev-master",
+        "stfalcon/tinymce-bundle": "dev-master",
+
+        "smart-core/module-breadcrumbs": "dev-master",
+        "smart-core/module-gallery": "dev-master",
+        "smart-core/module-menu": "dev-master",
+        "smart-core/module-simplenews": "dev-master",
+        "smart-core/module-slider": "dev-master",
+        "smart-core/module-texter": "dev-master",
+        "smart-core/module-unicat": "dev-master",
+        "smart-core/module-user": "dev-master",
+        "smart-core/module-webform": "dev-master",
+        "smart-core/module-widget": "dev-master",
+
+        "smart-core/cms-generator-bundle": "dev-master",
+        "smart-core/core-bundle": "dev-master",
+        "smart-core/felib-bundle": "dev-master",
+        "smart-core/html-bundle": "dev-master",
+        "smart-core/media-bundle": "dev-master",
+        "smart-core/rich-editor-bundle": "dev-master",
+        "smart-core/seo-bundle": "dev-master",
+        "smart-core/session-bundle": "dev-master",
+        "smart-core/settings-bundle": "dev-master",
+        "smart-core/simple-profiler-bundle": "dev-master",
+        "smart-core/sitemap-bundle": "dev-master"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "sh bin/init_var",
+            "sh bin/clear_cache",
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "SmartCore\\Bundle\\AcceleratorCacheBundle\\Composer\\ScriptHandler::clearCache",
+            "php app/console doctrine:schema:update"
+        ],
+        "post-update-cmd": [
+            "sh bin/init_var",
+            "sh bin/clear_cache",
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "SmartCore\\Bundle\\AcceleratorCacheBundle\\Composer\\ScriptHandler::clearCache",
+            "php app/console doctrine:schema:update"
+        ]
+    },
+    "config": {
+        "bin-dir": "bin",
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-bin-dir": "bin",
+        "symfony-var-dir": "var",
+        "symfony-web-dir": "web",
+        "symfony-assets-install": "symlink",
+        "branch-alias": {
+            "dev-master": "2.7-dev"
+        },
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        }
+    }
+}
