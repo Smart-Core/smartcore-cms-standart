@@ -7,6 +7,8 @@ else
     exit 1;
 fi
 
+app/console doctrine:schema:drop --force
+
 app/console cms:generate:sitebundle
 
 rm -rf app/Entity/User.php

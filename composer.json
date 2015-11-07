@@ -63,7 +63,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "SmartCore\\Bundle\\AcceleratorCacheBundle\\Composer\\ScriptHandler::clearCache",
             "Smart\\CoreBundle\\Composer\\ScriptHandler::doctrineSchemaCheck",
-            "sh bin/install"
+            "SmartCore\\Bundle\\CMSGeneratorBundle\\Composer\\ScriptHandler::installCheck"
         ],
         "post-update-cmd": [
             "sh bin/init_var",
@@ -74,7 +74,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "SmartCore\\Bundle\\AcceleratorCacheBundle\\Composer\\ScriptHandler::clearCache",
             "Smart\\CoreBundle\\Composer\\ScriptHandler::doctrineSchemaCheck",
-            "SmartCore\\Bundle\\CMSGeneratorBundle\\Composer\\ScriptHandler::install"
+            "SmartCore\\Bundle\\CMSGeneratorBundle\\Composer\\ScriptHandler::installCheck"
         ]
     },
     "config": {
