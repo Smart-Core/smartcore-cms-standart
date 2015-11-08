@@ -12,11 +12,11 @@ Step 1: Create database
 Step 2: Install new folder mysite.com
 
 ``` bash
-composer create-project smart-core/cms -s dev mysite.com
+composer create-project smart-core/cms mysite.com
 ```
 
 Or to current folder
 
 ``` bash
-composer create-project smart-core/cms -s dev ./
+composer create-project smart-core/cms dev ./
 ```
