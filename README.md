@@ -7,13 +7,15 @@ The modern system for creating and managing web projects with open source, based
 Install
 -------
 
-To new folder mysite.com
+Step 1: Create database 
+
+Step 2: Install new folder mysite.com
 
 ``` bash
 composer create-project smart-core/cms -s dev mysite.com
 ```
 
-To current folder
+Or to current folder
 
 ``` bash
 composer create-project smart-core/cms -s dev ./
