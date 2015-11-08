@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d8e3da4c7555ef4e022479c20ce7dd3",
+    "hash": "d63960624a246833e54fa0d3250f9a8c",
     "content-hash": "9be53055f8e86cef8ed0a4123a3660e9",
     "packages": [
         {
@@ -4928,12 +4928,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Smart-Core/CMSGeneratorBundle.git",
-                "reference": "4931e2df0c1fd4fa01a5805b403cea11eba2d0a0"
+                "reference": "f0921ce5e2a1ec48d3240b1d47c2d4dd8b2eb7a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Smart-Core/CMSGeneratorBundle/zipball/4931e2df0c1fd4fa01a5805b403cea11eba2d0a0",
-                "reference": "4931e2df0c1fd4fa01a5805b403cea11eba2d0a0",
+                "url": "https://api.github.com/repos/Smart-Core/CMSGeneratorBundle/zipball/f0921ce5e2a1ec48d3240b1d47c2d4dd8b2eb7a9",
+                "reference": "f0921ce5e2a1ec48d3240b1d47c2d4dd8b2eb7a9",
                 "shasum": ""
             },
             "require": {
@@ -4950,7 +4950,7 @@
                 "MIT"
             ],
             "homepage": "http://smart-core.org",
-            "time": "2015-11-07 23:47:57"
+            "time": "2015-11-08 09:11:07"
         },
         {
             "name": "smart-core/core-bundle",
