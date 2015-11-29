@@ -18,5 +18,5 @@ composer create-project smart-core/cms mysite.com
 Or to current folder
 
 ``` bash
-composer create-project smart-core/cms dev ./
+composer create-project smart-core/cms ./
 ```
