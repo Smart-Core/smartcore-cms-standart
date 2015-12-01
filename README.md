@@ -20,3 +20,13 @@ Or to current folder
 ``` bash
 composer create-project smart-core/cms ./
 ```
+
+Login as new user into http://my-projeсt/admin/.
+
+Пройти в раздел "Структура", по адресу `http://my-projeсt/admin/structure/` и создать главную папку.
+
+Создать "Хранилище" для медиаколлекции, по адресу:
+`http://my-projeсt/admin/config/media/storage_create/`
+
+Для модулей, которые будут использовать медиаколлекцию, нужно создать коллекции по адресу:
+`http://my-projeсt/admin/config/media/collection_create/`
