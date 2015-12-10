@@ -28,6 +28,7 @@ class AppKernel extends CMSAppKernel
         $bundles = array(
             new Dizda\CloudBackupBundle\DizdaCloudBackupBundle(),
             new SmartCore\Bundle\AcceleratorCacheBundle\AcceleratorCacheBundle(),
+            new SmartCore\Bundle\DbDumperBundle\SmartDbDumperBundle(),
             new SmartCore\Bundle\SitemapBundle\SmartSitemapBundle(),
 
             //new Abmundi\DatabaseCommandsBundle\AbmundiDatabaseCommandsBundle(), // "abmundi/database-commands-bundle": "dev-master",
