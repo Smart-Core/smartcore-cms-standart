@@ -10,7 +10,7 @@
     },
     "require": {
         "php": ">=5.5.9",
-        "symfony/symfony": "v2.7.x",
+        "symfony/symfony": "v2.8.x",
         "smart-core/cms-bundle": "dev-master",
 
         "doctrine/migrations": "1.0.*@dev",
@@ -22,7 +22,7 @@
         "mremi/templating-extra-bundle": "dev-master",
 
 
-        "friendsofsymfony/user-bundle": "dev-master",
+        "friendsofsymfony/user-bundle": "v2.0.0-alpha3",
         "hwi/oauth-bundle": "0.4.*@dev",
         "knplabs/knp-disqus-bundle":"dev-master",
         "knplabs/knp-menu": "dev-master",
@@ -89,7 +89,7 @@
         "symfony-web-dir": "web",
         "symfony-assets-install": "symlink",
         "branch-alias": {
-            "dev-master": "2.7-dev"
+            "dev-master": "2.8-dev"
         },
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
