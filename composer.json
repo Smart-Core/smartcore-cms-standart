@@ -25,6 +25,7 @@
         "knplabs/knp-menu-bundle": "dev-master",
         "mopa/bootstrap-bundle":  "dev-master",
         "stfalcon/tinymce-bundle": "v2.1",
+        "genemu/form-bundle": "^3.0@dev",
 
         "smart-core/module-breadcrumbs": "dev-master",
         "smart-core/module-gallery": "dev-master",
