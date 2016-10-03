@@ -11,6 +11,8 @@ fi
 if [ ! -d "$DIR" ]; then
     mkdir $DIR
     mkdir $DIR/cache
+    mkdir $DIR/db_dumps
+    mkdir $DIR/db_dumps/mysql
     mkdir $DIR/logs
     mkdir $DIR/mailspool
     echo "  $DIR directory created"
