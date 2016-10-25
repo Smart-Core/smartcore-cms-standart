@@ -59,6 +59,7 @@
         ],
         "smart-core-scripts": [
             "SmartCore\\Bundle\\AcceleratorCacheBundle\\Composer\\ScriptHandler::clearCache",
+            "SmartCore\\Bundle\\CMSGeneratorBundle\\Composer\\ScriptHandler::install",
             "Smart\\CoreBundle\\Composer\\ScriptHandler::doctrineSchemaCheck"
         ],
         "symfony-scripts": [
