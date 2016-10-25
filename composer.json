@@ -17,7 +17,7 @@
         "doctrine/doctrine-fixtures-bundle": "*",
         "doctrine/doctrine-migrations-bundle": "*",
 
-        "dizda/cloud-backup-bundle": "dev-master",
+        "dizda/cloud-backup-bundle": "*",
         "liip/functional-test-bundle": "dev-master",
 
 
