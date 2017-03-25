@@ -14,7 +14,6 @@
         "symfony/symfony": "^3.2",
         "smart-core/cms-bundle": "dev-master",
 
-        "doctrine/annotations": "v1.2.7",
         "doctrine/doctrine-fixtures-bundle": "*",
         "doctrine/doctrine-migrations-bundle": "*",
 
@@ -26,7 +25,6 @@
         "hwi/oauth-bundle": "0.5.*@dev",
         "knplabs/knp-menu-bundle": "dev-master",
         "mopa/bootstrap-bundle":  "dev-master",
-        "stfalcon/tinymce-bundle": "v2.1",
         "genemu/form-bundle": "^3.0@dev",
 
         "smart-core/module-breadcrumbs": "dev-master",
