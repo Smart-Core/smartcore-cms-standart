@@ -10,8 +10,8 @@
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
     "require": {
-        "php": "^7.0.7",
-        "symfony/symfony": "^3.2",
+        "php": "^7.1.0",
+        "symfony/symfony": "^3.3",
         "smart-core/cms-bundle": "dev-master",
 
         "doctrine/doctrine-fixtures-bundle": "*",
@@ -91,7 +91,7 @@
         "symfony-tests-dir": "tests",
         "symfony-assets-install": "symlink",
         "branch-alias": {
-            "dev-master": "3.2-dev"
+            "dev-master": "3.3-dev"
         },
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
